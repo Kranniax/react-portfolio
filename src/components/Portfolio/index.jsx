@@ -1,7 +1,11 @@
 import React from "react";
+import { Project } from "../Project/index.jsx";
 
 function Portfolio() {
-  return <></>;
+  return (
+  <Project>
+    
+  </Project>);
 }
 
 export { Portfolio };
