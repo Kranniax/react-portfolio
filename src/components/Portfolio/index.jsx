@@ -3,9 +3,7 @@ import { Project } from "../Project/index.jsx";
 
 function Portfolio() {
   return (
-  <Project>
-    
-  </Project>);
+  <Project></Project>);
 }
 
 export { Portfolio };
