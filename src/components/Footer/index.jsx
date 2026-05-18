@@ -8,14 +8,34 @@ function Footer() {
     >
       <Container maxWidth="sm">
         <Typography variant="body1" align="center">
-          My Website Footer
+          Shane's Portfolio
         </Typography>
         <Typography variant="body2" color="text.secondary" align="center">
-          {"Copyright © "}
-          <Link color="inherit" href="https://linkedin.com">
+          {"Copyright © "} {new Date().getFullYear()}{" "}
+          <Link
+            color="inherit"
+            href="https://www.linkedin.com/in/shane-bramble-wade"
+            target="_blank"
+          >
             LinkedIn
           </Link>{" "}
-          {new Date().getFullYear()}
+          <Link
+            color="inherit"
+            href="https://github.com/Kranniax"
+            target="_blank"
+          >
+            GitHub
+          </Link>{" "}
+          <Link
+            color="inherit"
+            href="https://www.instagram.com/iamshanewade/"
+            target="_blank"
+          >
+            Instagram
+          </Link>{" "}
+          <Link color="inherit" href="https://x.com/kranniax" target="_blank">
+            X
+          </Link>{" "}
         </Typography>
       </Container>
     </Box>

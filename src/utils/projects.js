@@ -5,47 +5,47 @@ const projects = [
       "A responsive React portfolio showcasing projects, skills, and contact information.",
     github: "https://github.com/Kranniax/volunteer-hub",
     liveUrl: "https://volunteer-project-956e5bea2fc7.herokuapp.com/",
-    image: "default-image.jpg",
+    image: "/images/volunteer-hub-profile.jpg",
   },
   {
     title: "Task Manager",
     description:
       "A task management app with CRUD functionality, local storage persistence, and filtering.",
-    github: "https://github.com/username/task-manager",
-    liveUrl: "https://username.github.io/task-manager",
-    image: "default-image.jpg",
+    github: "https://github.com/shanebramble/taskmaster-pro",
+    liveUrl: "https://shanebramble.github.io/taskmaster-pro/",
+    image: "/images/taskmaster-profile.jpg",
   },
   {
     title: "Weather Dashboard",
     description:
       "A weather dashboard that fetches data from an API and displays current conditions and forecast.",
-    github: "https://github.com/username/weather-dashboard",
-    liveUrl: "https://username.github.io/weather-dashboard",
-    image: "default-image.jpg",
+    github: "https://github.com/shanebramble/weather-dashboard",
+    liveUrl: "https://kranniax.github.io/weather-app/",
+    image: "/images/weather-profile.jpg",
   },
   {
-    title: "E-commerce Store",
+    title: "Hoop Dreams",
     description:
-      "A full-stack e-commerce application with user authentication, product catalog, and shopping cart.",
-    github: "https://github.com/username/ecommerce-store",
-    liveUrl: "https://username.github.io/ecommerce-store",
-    image: "default-image.jpg",
+      "A front end application that displays Basketball Leagues & Cups with Livescore, Odds, Bookmakers, Statistics, Standings, Historical Data, Countries, Seasons.",
+    github: "https://github.com/Kranniax/hoop-dreams",
+    liveUrl: "https://kranniax.github.io/hoop-dreams/",
+    image: "/images/hoop-profile.jpg",
   },
   {
-    title: "Blog Platform",
+    title: "Tech-Blog",
     description:
-      "A blogging platform with user registration, post creation, and comment system.",
-    github: "https://github.com/username/blog-platform",
-    liveUrl: "https://username.github.io/blog-platform",
-    image: "default-image.jpg",
+      "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+    github: "https://github.com/Kranniax/tech-blog",
+    liveUrl: "https://tech-blog-project-9e3a1ade4be8.herokuapp.com/",
+    image: "/images/tech-blog-profile-pic.jpg",
   },
   {
-    title: "Photo Gallery",
+    title: "S-M-A-C",
     description:
       "A responsive photo gallery with image upload, tagging, and search functionality.",
-    github: "https://github.com/username/photo-gallery",
-    liveUrl: "https://username.github.io/photo-gallery",
-    image: "default-image.jpg",
+    github: "https://github.com/shanebramble",
+    liveUrl: "https://s-m-a-c.netlify.app/",
+    image: "/images/smac.png",
   },
 ];
 
