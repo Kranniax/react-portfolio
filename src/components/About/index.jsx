@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import shanePhoto from "../../assets/images/Shane professional-modified.png";
 
 const About = () => {
+  const shanePhoto = "/images/Shane professional-modified.png";
   return (
     <div>
       <section id="hero">
