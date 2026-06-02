@@ -4,7 +4,7 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import {validateEmail} from "../../utils/helper.js";
+import { validateEmail } from "../../utils/helper.js";
 
 const Contact = () => {
   const [formState, setFormState] = useState({
@@ -18,6 +18,21 @@ const Contact = () => {
   function handleChange(e) {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
+
+      if (!isValid) {
+        setErrorMessage("Your email is invalid.");
+      } else {
+        setErrorMessage("");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage("");
+      }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
     }
   }
 
@@ -61,6 +76,7 @@ const Contact = () => {
             label="Name"
             variant="outlined"
             margin="normal"
+            defaultValue={name}
             fullWidth
             required
             sx={{ mb: 2 }}
@@ -72,6 +88,7 @@ const Contact = () => {
             type="email"
             variant="outlined"
             margin="normal"
+            defaultValue={email}
             fullWidth
             required
             sx={{ mb: 2 }}
@@ -85,10 +102,16 @@ const Contact = () => {
             rows={5}
             variant="outlined"
             margin="normal"
+            defaultValue={message}
             fullWidth
             sx={{ mb: 3 }}
             onBlur={handleChange}
           />
+          {errorMessage && (
+            <Typography variant="body2" color="error" sx={{ mb: 2 }}>
+              {errorMessage}
+            </Typography>
+          )}
           <Button type="submit" variant="contained" size="large">
             Send Message
           </Button>
