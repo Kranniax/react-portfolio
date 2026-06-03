@@ -23,7 +23,10 @@ function Resume() {
       </Typography>
       <Button
         variant="contained"
-        href="/Shane_Bramble_Wade_Resume_React_Portfolio.pdf"
+        href={
+          process.env.PUBLIC_URL +
+          "/Shane_Bramble_Wade_Resume_React_Portfolio.pdf"
+        }
         target="_blank"
         rel="noopener noreferrer"
         sx={{ mb: 4 }}
