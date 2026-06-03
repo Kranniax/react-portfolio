@@ -2,7 +2,8 @@ import React from "react";
 import { Grid } from "@mui/material";
 
 const About = () => {
-  const shanePhoto = "/images/Shane professional-modified.png";
+  const shanePhoto =
+    process.env.PUBLIC_URL + "/images/Shane professional-modified.png";
   return (
     <div>
       <section id="hero">
