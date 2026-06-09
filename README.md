@@ -1,17 +1,21 @@
 # React Portfolio
 
-A modern React portfolio website built with Create React App, Material UI, and a clean, responsive layout. This project showcases your about section, portfolio projects, resume, and contact information in a polished single-page experience.
+A modern React portfolio website built with Create React App, Material UI, and a clean, responsive layout. This project showcases my about section, portfolio projects, resume, and contact information in a polished single-page experience.
 
 ## Highlights
 
 - Responsive design for desktop and mobile
 - Professional portfolio sections for About, Projects, Resume, and Contact
 - Clean styling with Material UI components
-- Easy to customize with your personal information and project details
+- Easy to customize with my personal information and project details
 
 ## Website Preview
 
 ![Website screenshot placeholder](./public/images/react-portfolio-profile.jpg)
+
+## Deployed Website
+
+Visit the live portfolio here: **[React Portfolio](https://kranniax.github.io/react-portfolio/)**
 
 ## Tech Stack
 
